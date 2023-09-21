@@ -10,7 +10,6 @@ import { Product, Image, Category, Color, Size } from '@prisma/client';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { useParams, useRouter } from 'next/navigation';
 
-
 import { Input } from '@/components/ui/input';
 import { AlertModal } from '@/components/modals/alert-modal';
 import ImageUpload from '@/components/ui/image-upload';
